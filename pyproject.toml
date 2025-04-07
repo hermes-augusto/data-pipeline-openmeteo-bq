@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "data-pipeline-openmeteo-bq"
+version = "0.1.0"
+description = ""
+authors = ["hermes-augusto <hermes.barboza@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+google-cloud-bigquery = "^3.31.0"
+python-dotenv = "^1.1.0"
+pyarrow = "^19.0.1"
+pandas-gbq = "^0.28.0"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.1.1"
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
